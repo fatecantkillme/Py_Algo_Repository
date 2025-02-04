@@ -13,5 +13,4 @@ class Solution(object):
         for x in range(len(matrix[0])):
             for y in range(x,len(matrix)):
                 matrix[y][x],matrix[x][y]=matrix[x][y],matrix[y][x]
-
-           
+                
